@@ -114,8 +114,8 @@ fn read_lines<P>(filename: P) -> io::Result<io::Lines<io::BufReader<fs::File>>>
         Ok(io::BufReader::new(file).lines())
     }
 
-
+/*
 fn proceed(board: &mut Vec<Value>, i: usize) -> usize {
     let mut consistent = false;
-    0  // TODO: REMOVE
 }
+*/
